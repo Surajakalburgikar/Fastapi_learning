@@ -1,5 +1,35 @@
-.env/
+# Virtual environments
 env/
+venv/
+.venv/
+ENV/
+
+# Python cache
 __pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
 .vscode/
-*.pyc
+
+# Environment variables
+.env
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
