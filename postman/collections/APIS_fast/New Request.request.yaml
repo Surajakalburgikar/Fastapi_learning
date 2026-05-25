@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://127.0.0.1:8000/create_product
+method: POST
+order: 3850737876360216

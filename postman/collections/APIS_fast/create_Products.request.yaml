@@ -1,0 +1,18 @@
+$kind: http-request
+name: create_Products
+url: http://127.0.0.1:8000/create_product
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 3,\r
+
+    \    \"title\": \"mac \",\r
+
+    \    \"count\": 100,\r
+
+    \    \"price\": 1000\r
+
+    }"
+order: 4402710567848853

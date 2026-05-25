@@ -1,0 +1,18 @@
+$kind: http-request
+name: update_product
+url: http://127.0.0.1:8000/update_product/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 2,\r
+
+    \    \"title\": \"mac pro\",\r
+
+    \    \"count\": 10,\r
+
+    \    \"price\": 10000\r
+
+    }"
+order: 4432515566878173
